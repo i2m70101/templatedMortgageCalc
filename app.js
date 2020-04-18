@@ -8,9 +8,14 @@ function mValue()
     document.getElementById("pAppr").innerHTML = t
     document.getElementById("pHTB").innerHTML = x *0.2
    document.getElementById("oHTB").innerHTML = `up by ${incHTB}k`
+    document.getElementById("Mrem")
+
+
+
+
+
+
     
-
-
 }
 
 function RemMor()

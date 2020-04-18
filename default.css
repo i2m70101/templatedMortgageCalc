@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #261300 url(images/overlay.png) repeat;
+		background: #BF1E4B url(images/overlay.png) repeat;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -267,7 +267,7 @@
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 1.2em;
-		color: #FFF;
+		color: rgb(141, 34, 34);
 	}
 	
 	.button:before
@@ -318,7 +318,7 @@
 	#header-wrapper
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 2em 0em;
 	}
 
 	#header
@@ -331,14 +331,16 @@
 
 	#logo
 	{
-		padding: 5em 0em;
+		padding: 0.5em 0em;
 		text-align: center;
 	}
 	
 	#logo h1
 	{
-		font-size: 3.5em;
+		font-size: 5em;
 	}
+	
+	
 	
 	#logo a
 	{
@@ -621,12 +623,29 @@
 		text-align: center;
 	}
 	
+
+	/*
+	This setiings is for result under 3 column Appreciation HTB share and Cash after Share
+	*/
+	#text101,
+	#text102,
+	#text103
+
+	{
+		font-weight: 700;
+		font-size: xx-large;
+		
+		
+	}
+
+
 	#three-column h2
 	{
 		margin: 1em 0em;
-		text-transform: uppercase;
+		text-transform: none;
 		font-size: 1.5em;
 		font-weight: 700;
+		;
 	}
 	
 	#three-column .icon
@@ -640,7 +659,7 @@
 		height: 150px;
 		border-radius: 100px;
 		text-align: center;
-		color: #632F00;
+		color:#BF1E4B;
 		
 	}
 		
@@ -651,6 +670,7 @@
 		float: left;
 		width: 320px;
 		padding: 80px 40px 80px 40px;
+		color: #BF1E4B;
 	}
 	
 	#three-column .title
