@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #BF1E4B url(images/overlay.png) repeat;
+		background: rgb(196, 178, 120) url(images/overlay.png) repeat;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -91,8 +91,8 @@
 				-webkit-appearance: none;
 				display: block;
 				border: 0;
-				background: #fff;
-				background: rgba(255,255,255,0.75);
+				background: rgb(116, 107, 107);
+				background: rgba(112, 107, 107, 0.75);
 				width: 100%;
 				border-radius: 0.50em;
 				margin: 1em 0em;
@@ -119,8 +119,8 @@
 				form select:focus,
 				form textarea:focus
 				{
-					box-shadow: 0 0 2px 1px #E0E0E0;
-					background: #fff;
+					box-shadow: 0 0 2px 1px rgb(211, 73, 73);
+					background: rgb(116, 110, 110);
 				}
 				
 				form textarea
@@ -255,12 +255,14 @@
 /* Button Style                                                                  */
 /*********************************************************************************/
 
+
+	
 	.button
 	{
 		display: inline-block;
 		margin-top: 2em;
 		padding: 1em 2em 1em 2em;
-		background: #BF1E4B;
+		background: rgb(196, 178, 120);
 		letter-spacing: 0.20em;
 		line-height: 1.8em;
 		text-decoration: none;
@@ -281,12 +283,10 @@
 		border-radius: 20px;
 		text-align: center;
 		color: #272925;
+		border-radius: 50%;
 	}
 	
-	.button-small
-	{
-	}
-		
+	 
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
@@ -345,7 +345,7 @@
 	#logo a
 	{
 		text-decoration: none;
-		color: #FFF;
+		color: rgb(66, 63, 63);
 	}
 	
 	#logo span
@@ -402,7 +402,7 @@
 	#menu .current_page_item a
 	{
 		background: #BF1E4B;
-		color: #FFF;
+		color: rgb(95, 88, 88);
 	}
 	
 
@@ -432,7 +432,7 @@
 	{
 		overflow: hidden;
 		padding: 0em 0em 8em 0em;
-		background: #FFF;
+		background: rgb(66, 63, 63);
 	}
 	
 	#wrapper4
@@ -659,7 +659,7 @@
 		height: 150px;
 		border-radius: 100px;
 		text-align: center;
-		color:#BF1E4B;
+		color: rgb(196, 178, 120);
 		
 	}
 		
@@ -670,7 +670,7 @@
 		float: left;
 		width: 320px;
 		padding: 80px 40px 80px 40px;
-		color: #BF1E4B;
+		color: rgb(196, 178, 120);
 	}
 	
 	#three-column .title
@@ -685,7 +685,7 @@
 		font-size: 1.60em;
 		font-weight: 900;
 		font-family: 'Open Sans', sans-serif;
-		color: #261300;
+		color: rgb(196, 178, 120);
 	}
 	
 	#three-column .title .byline
@@ -697,7 +697,10 @@
 
 	#three-column .arrow-down
 	{
-		border-top-color: #292929;
+		border-top-color: rgb(196, 178, 120);
 	}
 
-	
+	#terms
+	{
+		color: rgb(196, 178, 120);
+	}

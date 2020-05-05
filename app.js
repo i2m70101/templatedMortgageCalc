@@ -3,9 +3,14 @@ function mValue()
 {   
     
     var x = document.getElementById("Mvalue").value;
-    var t = ((x-350000)/350000)*100;
+    var num = ((x-350000)/350000)*100;
+    var t = num.toFixed(0);
+
     var incHTB = ((x * 0.2) - 70000)/1000;
+    
     document.getElementById("pAppr").innerHTML = t
+
+
     document.getElementById("pHTB").innerHTML = x *0.2
    document.getElementById("oHTB").innerHTML = `up by ${incHTB}k`
     document.getElementById("Mrem")
