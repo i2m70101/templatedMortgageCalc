@@ -14,7 +14,10 @@
 		color: #000000;
 	}
 	
+
 	
+
+
 	h1, h2, h3
 	{
 		margin: 0;
@@ -401,10 +404,15 @@
 	
 	#menu .current_page_item a
 	{
-		background: #BF1E4B;
+		background: rgb(43, 34, 36);
 		color: rgb(95, 88, 88);
 	}
 	
+	#para {
+		background-color: rgb(44, 43, 37);
+
+	}
+
 
 /*********************************************************************************/
 /* Banner                                                                        */
